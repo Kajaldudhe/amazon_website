@@ -219,10 +219,11 @@ margin-bottom: 1rem;
     /* transition-delay: 0.5s; */
 }
 .box-content .box-img:hover{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
      /* transform: rotate(50deg);  rotaion 2D */
     /* transform: rotate3d(1, 0, 0, 45deg) 3D dimention */
-    /* transform:rotate3d(1,2,0,45deg); 3D impletation */
+    transform:rotate3d(1,2,0,45deg); 
+    /* 3D impletation */
 }
 .box-content p{
     color: #007185;
