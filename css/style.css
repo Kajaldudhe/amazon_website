@@ -210,6 +210,7 @@ margin-bottom: 1rem;
     font-size: 1.4rem;
     color: #f3adad;
     /* background-color:#FDE7E7; */
+    transform:rotate(1,2,0,45deg); 
     border-radius: 20px;
 }
 .box-content .box-img{
