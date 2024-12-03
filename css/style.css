@@ -7,7 +7,8 @@
 /* Navbar */
 .navbar{
     height: 60px;
-    background-color: #0f1111;
+    /*bg  ##0f1111 */
+    background-color: #04734b;
     color: white;
     display: flex;
     align-items: center;
@@ -57,7 +58,7 @@ margin-left: 3px;
     border-radius: 4px;
 }
 .nav-search:hover{
-    border: 3px solid #febd68;
+    border: 3px solid #f0acd5;
 }
 .search-select{
     background-color: #f3f3f3;
@@ -78,10 +79,12 @@ margin-left: 3px;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color: #febd68;
+    /*bg #febd68 */
+    background-color: #a9176f;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    color: #0f1111;
+    /*bg #0f1111 */
+    color:#ffffff;
 }
 
 /** Box4 **/
@@ -107,7 +110,7 @@ span{
 
 .panel{
    height: 40px;
-   background-color: #222f3d;
+   background-color: #085749;
    display: flex;
    color: white;
    align-items: center;
@@ -139,9 +142,9 @@ span{
 
 /* hero Section */
 .hero-section{
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/hero3.jpg');
     background-size: cover;
-    height: 350px;
+    height: 291px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -156,11 +159,12 @@ span{
     align-items: center;
     justify-content: center;
     font-size: 0.85rem; 
-    width: 80%;
+    width: 96.6%;
     margin-bottom: 25px;
     transition-property: all;
     transition-duration: 3s;
     transition-timing-function:ease-in-out;
+    padding: 20px;
 }
 
 .hero-msg:hover{
@@ -217,6 +221,7 @@ margin-bottom: 1rem;
     transition-property: all;
     transition-duration: 2s;
     transition-timing-function: ease-in;
+    
     /* transition-delay: 0.5s; */
 }
 .box-content .box-img:hover{
@@ -225,6 +230,7 @@ margin-bottom: 1rem;
     /* transform: rotate3d(1, 0, 0, 45deg) 3D dimention */
     transform:rotate3d(1,2,0,45deg); 
     /* 3D impletation */
+   
 }
 .box-content p{
     color: #007185;
@@ -301,3 +307,4 @@ ul a{
 .copyright{
     padding-top: 5px;
 }
+
