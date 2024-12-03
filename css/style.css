@@ -215,7 +215,7 @@ margin-bottom: 1rem;
 }
 .box-content .box-img{
     transition-property: all;
-    transition-duration: 3s;
+    transition-duration: 2s;
     transition-timing-function: ease-in;
     /* transition-delay: 0.5s; */
 }
