@@ -84,7 +84,7 @@ margin-left: 3px;
     color: #0f1111;
 }
 
-/**    Box4    **/
+/** Box4 **/
 span{
     font-size: 0.7rem;
 }
@@ -93,7 +93,7 @@ span{
     font-weight: 580;
 }
 
-/**     Box6     **/
+/** Box6 **/
 /* Combination of selector classes using this class */
 .nav-cart i{
      font-size: 30px;
@@ -119,6 +119,11 @@ span{
   margin-left: 15px;
 
 }
+.panel-ops p a{
+  text-decoration: none;
+  color: white;
+
+}
 .panel-ops{
     width: 70%;
     font-size: 0.85rem;
@@ -126,6 +131,10 @@ span{
 .panel-deals {
    font-size: 0.9rem;
    font-weight: 580;
+}
+.panel-deals a{
+   text-decoration: none;
+   color: white;
 }
 
 /* hero Section */
@@ -137,6 +146,8 @@ span{
     justify-content: center;
     align-items: flex-end;
 }
+
+
 .hero-msg{
     background-color: white;
     color: black;
@@ -147,9 +158,22 @@ span{
     font-size: 0.85rem; 
     width: 80%;
     margin-bottom: 25px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function:ease-in-out;
 }
+
+.hero-msg:hover{
+  background-color: rgb(248, 85, 167);
+  font-size: 1rem;
+  color: white;
+}
+
 .hero-msg a{
     color: #007185;
+}
+.hero-msg a:hover{
+    color: #358500;
 }
 .shop-section{
     display: flex;
@@ -176,6 +200,29 @@ margin-bottom: 1rem;
 .box-content{
     margin-left: 1rem;
     margin-right: 1rem;
+}
+.box-content h2{
+    transition-property: all;
+    transition-duration: 1.8s;
+    transition-timing-function:ease-out;
+}
+.box-content h2:hover{
+    font-size: 1.4rem;
+    color: #f3adad;
+    /* background-color:#FDE7E7; */
+    border-radius: 20px;
+}
+.box-content .box-img{
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    /* transition-delay: 0.5s; */
+}
+.box-content .box-img:hover{
+    transform: scale(1.1);
+     /* transform: rotate(50deg);  rotaion 2D */
+    /* transform: rotate3d(1, 0, 0, 45deg) 3D dimention */
+    /* transform:rotate3d(1,2,0,45deg); 3D impletation */
 }
 .box-content p{
     color: #007185;
