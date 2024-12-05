@@ -308,3 +308,8 @@ ul a{
     padding-top: 5px;
 }
 
+/* for pseudo element css */
+/* h1::before{
+    content: 'Before';
+    color: red;
+} */
